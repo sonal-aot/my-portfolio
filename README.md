@@ -83,6 +83,6 @@ This project is open-source and available under the MIT License.
 Feel free to reach out to me via:
 
 - Email: sonalsai777@gmail.com
-- LinkedIn: https://www.linkedin.com/in/sonalsai/
+- LinkedIn: [https://www.linkedin.com/in/sonalsai/](https://www.linkedin.com/in/sonalsai/)
 - GitHub: [github.com/sonalsai
 ](https://github.com/sonalsai)
