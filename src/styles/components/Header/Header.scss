@@ -1,0 +1,71 @@
+@import "../../utils/vavriables";
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: $color1; // Dark background for the header
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  .headerLogo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: $color4; // Light Accent for the logo text
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: $color3; // Subtle hover effect
+      }
+    }
+  }
+
+  .headerNav {
+    ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li a {
+        font-size: 1rem;
+        text-decoration: none;
+        color: $color4; // Light accent for navigation links
+        font-weight: 500;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: $color2; // Bold hover effect for navigation
+        }
+      }
+    }
+  }
+
+  .headerCta {
+    .hireMeBtn {
+      background-color: $color2; // Primary button background
+      color: #fff; // White button text for contrast
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+
+      &:hover {
+        background-color: $color3; // Muted color on hover
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+}
