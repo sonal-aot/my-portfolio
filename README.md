@@ -84,4 +84,5 @@ Feel free to reach out to me via:
 
 - Email: sonalsai777@gmail.com
 - LinkedIn: https://www.linkedin.com/in/sonalsai/
-- GitHub: github.com/sonalsai
+- GitHub: [github.com/sonalsai
+](https://github.com/sonalsai)
