@@ -1,0 +1,92 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #E5E1DA; /* Accent Color 1 */
+  color: #312d42; /* Dark Text Color */
+  padding: 0 20px;
+
+  .profileContent {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+
+    .profileImageContainer {
+      flex: 1;
+      padding-right: 30px;
+    }
+
+    .profileImage {
+      width: 250px; /* Adjust image size */
+      height: 250px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .profileText {
+      flex: 2;
+    }
+
+    .profileTitle {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #89A8B2; /* Primary Color */
+      margin-bottom: 10px;
+    }
+
+    .profileSubtitle {
+      font-size: 1.5rem;
+      color: #B3C8CF; /* Secondary Color */
+      margin-bottom: 10px;
+    }
+
+    .profileDescription {
+      font-size: 1.2rem;
+      color: #5c6578; /* Lighter color for description */
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+
+    .ctaButton {
+      font-size: 1.2rem;
+      background-color: #89A8B2; /* Primary Color */
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+      text-align: center;
+
+      &:hover {
+        background-color: #B3C8CF; /* Hover effect */
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .profileContent {
+    flex-direction: column;
+    text-align: center;
+
+    .profileImageContainer {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+
+    .profileImage {
+      width: 200px;
+      height: 200px;
+    }
+
+    .profileText {
+      flex: 1;
+    }
+  }
+}
