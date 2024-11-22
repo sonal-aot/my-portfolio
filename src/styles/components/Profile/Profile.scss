@@ -1,10 +1,12 @@
+@import "../../utils/vavriables";
+
 .profile {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #E5E1DA; /* Accent Color 1 */
-  color: #312d42; /* Dark Text Color */
+  background-color: $color3; /* Accent Color 1 */
+  color: $color1; /* Dark Text Color */
   padding: 0 20px;
 
   .profileContent {
@@ -35,26 +37,26 @@
     .profileTitle {
       font-size: 3rem;
       font-weight: 700;
-      color: #89A8B2; /* Primary Color */
+      color: $color1; /* Primary Color */
       margin-bottom: 10px;
     }
 
     .profileSubtitle {
       font-size: 1.5rem;
-      color: #B3C8CF; /* Secondary Color */
+      color: $color2; /* Secondary Color */
       margin-bottom: 10px;
     }
 
     .profileDescription {
       font-size: 1.2rem;
-      color: #5c6578; /* Lighter color for description */
+      color: $color4; /* Lighter color for description */
       margin-bottom: 20px;
       line-height: 1.6;
     }
 
     .ctaButton {
       font-size: 1.2rem;
-      background-color: #89A8B2; /* Primary Color */
+      background-color: $color4; /* Primary Color */
       color: #fff;
       padding: 15px 30px;
       text-decoration: none;
@@ -64,7 +66,7 @@
       text-align: center;
 
       &:hover {
-        background-color: #B3C8CF; /* Hover effect */
+        background-color: $color2; /* Hover effect */
       }
     }
   }
