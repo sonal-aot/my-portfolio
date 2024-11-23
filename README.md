@@ -24,7 +24,7 @@ The project uses a custom color scheme to ensure a professional look:
 - $color1: #fff8f0;
 - $color2: #92140c;
 - $color3: #ffcf99;
- -$color4: #111d4a;
+- $color4: #111d4a;
 
 ## Getting Started
 
