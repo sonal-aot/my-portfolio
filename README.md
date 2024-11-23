@@ -21,10 +21,10 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 
 The project uses a custom color scheme to ensure a professional look:
 
-- Primary Color: `#89A8B2`
-- Secondary Color: `#B3C8CF`
-- Accent Color 1: `#E5E1DA`
-- Accent Color 2: `#F1F0E8`
+- $color1: #fff8f0;
+- $color2: #92140c;
+- $color3: #ffcf99;
+ -$color4: #111d4a;
 
 ## Getting Started
 
