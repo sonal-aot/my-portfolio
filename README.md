@@ -14,7 +14,6 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 - **React:** For building the interactive and dynamic UI.
 - **SCSS:** For styling the components with a modular and scalable approach.
 - **Vite:** For a fast development environment and optimized production build.
-- **React Router:** For navigation between different sections of the portfolio.
 - **FontAwesome/Icons:** For including clean and simple icons.
 
 ## Color Palette
