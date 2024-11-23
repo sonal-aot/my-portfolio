@@ -1,9 +1,12 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import '../../styles/components/Profile/Profile.scss';
 import profileImage from "../../assets/images/profile.jpg";
+import projectsData from '../../data/ProjectsData';
 
 const Profile = () => {
+  console.log(projectsData)
   return (
     <section className="profile">
       <div className="profileContent">

@@ -1,0 +1,66 @@
+@import "../../utils/vavriables";
+
+.projectCard {
+  background-color: $color4; /* Light Background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  text-align: left;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .projectTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $color1; /* Primary Color */
+    margin-bottom: 0.5rem;
+  }
+
+  .projectDescription {
+    font-size: 1rem;
+    color: $color3; /* Text Color */
+    margin-bottom: 1rem;
+  }
+  .projectTechStack {
+
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    li {
+      font-size: 0.9rem;
+      background-color: $color2; /* Tag Background */
+      color: #fff; /* Tag Text Color */
+      padding: 0.3rem 0.7rem;
+      border-radius: 4px;
+    }
+  }
+
+  .projectLinks {
+    display: flex;
+    gap: 1rem;
+
+    .projectLink {
+      font-size: 1rem;
+      text-decoration: none;
+      color: #fff;
+      background-color: $color1; /* Primary Button */
+      padding: 0.6rem 1.2rem;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: $color2; /* Hover Color */
+      }
+    }
+  }
+}
