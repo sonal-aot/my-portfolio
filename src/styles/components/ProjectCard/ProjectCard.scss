@@ -1,14 +1,12 @@
 @import "../../utils/vavriables";
 
 .projectCard {
-  background-color: $color4; /* Light Background */
+  background-color: $color1;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 2rem;
   text-align: left;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
     transform: translateY(-5px);
@@ -16,19 +14,20 @@
   }
 
   .projectTitle {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: $color1; /* Primary Color */
+    font-family: $ubuntu;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: $color2;
     margin-bottom: 0.5rem;
   }
 
   .projectDescription {
     font-size: 1rem;
-    color: $color3; /* Text Color */
+    color: $color4;
     margin-bottom: 1rem;
   }
-  .projectTechStack {
 
+  .projectTechStack {
     list-style: none;
     padding: 0;
     margin: 0 0 1rem 0;
@@ -38,10 +37,11 @@
 
     li {
       font-size: 0.9rem;
-      background-color: $color2; /* Tag Background */
-      color: #fff; /* Tag Text Color */
-      padding: 0.3rem 0.7rem;
-      border-radius: 4px;
+      background-color: $color3;
+      color: $color4;
+      font-weight: 500;
+      padding: 0.3rem 0.9rem;
+      border-radius: 20px;
     }
   }
 
@@ -50,16 +50,43 @@
     gap: 1rem;
 
     .projectLink {
-      font-size: 1rem;
+      appearance: none;
+      background-color: #000000; // Black background for the button
+      border: 2px solid #1A1A1A; // Slightly lighter border
+      border-radius: 15px; // Rounded corners
+      box-sizing: border-box;
+      color: #FFFFFF; // White text
+      cursor: pointer;
+      display: inline-block;
+      font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 1rem; // Adjusted font size for consistency
+      font-weight: 600;
+      line-height: normal;
+      margin: 0;
+      min-height: 50px; // Slightly smaller minimum height for consistency
+      padding: 12px 24px; // Adjusted padding
+      text-align: center;
       text-decoration: none;
-      color: #fff;
-      background-color: $color1; /* Primary Button */
-      padding: 0.6rem 1.2rem;
-      border-radius: 4px;
-      transition: background-color 0.3s ease;
+      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1); // Smooth transition
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: auto; // Auto-width for flexibility
+      will-change: transform;
 
       &:hover {
-        background-color: $color2; /* Hover Color */
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px; // Elevated shadow on hover
+        transform: translateY(-2px); // Subtle upward movement
+      }
+
+      &:active {
+        box-shadow: none;
+        transform: translateY(0); // Reset on click
+      }
+
+      &:disabled {
+        pointer-events: none;
+        opacity: 0.6; // Visual indicator for disabled state
       }
     }
   }
