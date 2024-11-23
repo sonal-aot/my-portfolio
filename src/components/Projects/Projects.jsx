@@ -2,7 +2,7 @@
 import React from "react";
 import "../../styles/components/Projects/Projects.scss";
 import projectsData from "../../data/ProjectsData";
-import ProjectCard from "../ProjectCard/ProjectCard";
+import ProjectCard from "./ProjectCard/ProjectCard";
 
 const Projects = () => {
   return (

@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import PropTypes from "prop-types";
-import "../../styles/components/ProjectCard/ProjectCard.scss";
+import "../../../styles/components/ProjectCard/ProjectCard.scss";
 
 const ProjectCard = ({ title, description, techStack, liveLink, githubLink }) => {
   return (

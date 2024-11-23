@@ -6,7 +6,6 @@ import profileImage from "../../assets/images/profile.jpg";
 import projectsData from '../../data/ProjectsData';
 
 const Profile = () => {
-  console.log(projectsData)
   return (
     <section className="profile">
       <div className="profileContent">
